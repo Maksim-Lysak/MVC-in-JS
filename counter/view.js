@@ -3,6 +3,7 @@ export default class View {
         this.input = document.getElementById('input')
         this.updateCounter(counterValue)
     }
+    
     elements = {
         btnPlus: document.getElementById('btnPlus'),
         btnMinus: document.getElementById('btnMinus'),
